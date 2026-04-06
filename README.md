@@ -1,6 +1,6 @@
 # 保活脚本 (Keep Alive Worker)
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/canaan723/keep-alive-worker)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/qingjue723/keep-alive-worker)
 
 一个 Cloudflare Worker 脚本，通过定期访问指定域名，可以防止 Render 等平台的免费服务因无人访问而休眠。
 
@@ -21,7 +21,7 @@
 
 ### 一键部署步骤
 
-1.  点击上方的 "Deploy with Workers" 按钮或 [此链接](https://deploy.workers.cloudflare.com/?url=https://github.com/canaan723/keep-alive-worker) 开始部署。
+1.  点击上方的 "Deploy with Workers" 按钮或 [此链接](https://deploy.workers.cloudflare.com/?url=https://github.com/qingjue723/keep-alive-worker) 开始部署。
 2.  授权 Cloudflare 访问你的 GitHub 账号。建议选择授权 **All repositories** (所有仓库)。
     <img src="https://pub-88bc3c02afca49d3a2111ca780bf4061.r2.dev/blog/2025/10/20251020162954076.webp" alt="授权 Cloudflare 访问 GitHub" width="500">
 3.  在部署页面，勾选 **创建专用 Git 存储库** 复选框，这将为你的项目创建一个私有仓库。
